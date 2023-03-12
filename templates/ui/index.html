@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Impact Assessment</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container custom-input">
+		<h3 class="custom-input__label">Title</h3>
+		<input class="custom-input__input" type="text" placeholder="Placeholder">
+	</div>
+	<div class="container custom-area-input">
+		<h3 class="custom-area-input__label">Title</h3>
+		<textarea class="custom-area-input__input"></textarea>
+	</div>
+	<div class="container custom-radio-select">
+		<h3 class="custom-radio-select__label">Title</h3>
+		<div class="custom-radio-select__select-container">
+			<div class="custom-radio-select__item" title="Item 1 title text">
+				<input id="value1" type="radio" name="values" value="value1" checked>
+				<label for="value1">Item 1</label>
+			</div>
+			<div class="custom-radio-select__item" title="Item 2 title text">
+				<input id="value2" type="radio" name="values" value="value2">
+				<label for="value2">Item 2</label>
+			</div>
+			<div class="custom-radio-select__item" title="Item 3 title text">
+				<input id="value3" type="radio" name="values" value="value3">
+				<label for="value3">Item 3</label>
+			</div>
+		</div>
+	</div>
+	<div class="container custom-checkbox-select">
+		<h3 class="custom-checkbox-select__label">Title</h3>
+		<div class="custom-checkbox-select__select-container">
+			<div class="custom-checkbox-select__item" title="Item 1 title text">
+				<input id="check_value1" type="checkbox" name="check_values">
+				<label for="check_value1">Item 1</label>
+			</div>
+			<div class="custom-checkbox-select__item" title="Item 2 title text">
+				<input id="check_value2" type="checkbox" name="check_values">
+				<label for="check_value2">Item 2</label>
+			</div>
+			<div class="custom-checkbox-select__item" title="Item 3 title text">
+				<input id="check_value3" type="checkbox" name="check_values">
+				<label for="check_value3">Item 3</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
