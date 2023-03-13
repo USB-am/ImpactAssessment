@@ -11,6 +11,16 @@ class Document:
 		return f'Document "{self.path_to_template}"'
 
 
+class ImpactAssessment(Document):
+	fields = {
+		'field_1': None,
+		'field_2': None
+	}
+
+	def construction_template(self) -> str:
+		pass
+
+
 class Model:
 	def __init__(self):
 		pass
